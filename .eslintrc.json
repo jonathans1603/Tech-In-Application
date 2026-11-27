@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2021": true, "node": true },
+  "extends": [
+    "standard",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "settings": { "react": { "version": "detect" } },
+  "plugins": ["react"],
+  "ignorePatterns": ["dist", "node_modules", "build", "coverage", "playwright-report", "test-results"]
+}
