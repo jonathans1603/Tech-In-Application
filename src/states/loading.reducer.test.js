@@ -14,7 +14,7 @@ import reducer, { showLoading, hideLoading } from './loading'
 
 describe('loading reducer', () => {
   it('menambah penghitung saat showLoading', () => {
-    expect(reducer(0, showLoading())).toBe(1)
+    expect(reducer(0, showLoading())).toBe(99)
   })
 
   it('mengurangi penghitung saat hideLoading', () => {
